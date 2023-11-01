@@ -1,0 +1,38 @@
+h1 {
+    margin-top: 0;
+    padding-top: 45px;
+    line-height: 18px;
+    font-weight: normal;
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 35px;
+    line-height: 18px;
+    color: white;
+  }
+
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: white;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .playlist {
+    text-align: center;
+    background-color: IndianRed;
+  }
+
+  img {
+    width: 210px;
+    margin-bottom: 80px;
+  }
