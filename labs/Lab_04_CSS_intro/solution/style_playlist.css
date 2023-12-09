@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.playlist {
+  background-color: purple;
+  padding: 20px;
+  min-height: 400px;
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+  font-weight: normal;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  min-height: 400px;
+  width: 500px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

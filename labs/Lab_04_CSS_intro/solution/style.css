@@ -1,0 +1,18 @@
+h1 {
+    font-family: 'William', serif;
+    display: block;
+  }
+  
+  h2 {
+    font-family: 'Inter', sans-serif;
+    display: block;
+  }
+
+body {
+    min-width: 850px;
+  }
+  
+
+  img {
+    width: 210px;
+  }
