@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.All_header_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Top_menu li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+}
+
+.Top_menu, .Logotip {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logotip img {
+    height: 30px;
+    width: 200px;
+    margin: 12px;
+}
+
+.Top_menu li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    vertical-align: middle;
+}
+
+.Top_menu li a:hover {
+    color: green;
+}
+
+.main_catalog {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    width: calc(33.33% - 26px);
+    margin-bottom: 20px;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 760px) {
+    .item {
+        text-align: center;
+        margin: 12px;
+        margin-bottom: 20px;
+        width: calc(50% - 24px);
+    }
+}
+
+@media (max-width: 400px) {
+    .item {
+        text-align: center;
+        margin: 12px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .item2 {
+        text-align: center;
+        margin: 12px;
+        margin-bottom: 20px;
+        width: calc(50% - 24px);
+    }
+}
+
+@media (max-width: 400px) {
+    .All_header_menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Top_menu, .Logotip {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .cat {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .Header_popular {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.popular_catalog {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item2 {
+    text-align: center;
+    width: calc(25% - 26px);
+    margin-bottom: 20px;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+.image2 {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 760px) {
+    .item2 {
+        text-align: center;
+        margin: 12px;
+        margin-bottom: 20px;
+        width: calc(33.33% - 24px);
+    }
+}
+
+@media (max-width: 400px) {
+    .item2 {
+        text-align: center;
+        margin: 12px;
+        margin-bottom: 20px;
+        width: calc(50% - 24px);
+    }
+}
+
+
