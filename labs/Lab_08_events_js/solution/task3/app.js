@@ -10,6 +10,14 @@ greenInput.addEventListener('input', changeColor);
 blueInput.addEventListener('input', changeColor);
 pressButton.addEventListener('click', addNewBlock);
 
+function getSavedColor() {
+    return localStorage.getItem('savedColor');
+}
+
+function applyColorToElement(element, color) {
+    element.style.backgroundColor = color;
+}
+
 function changeBlockColor(event) {
     const clickedBlockColor = event.target.style.backgroundColor;
     
@@ -18,6 +26,8 @@ function changeBlockColor(event) {
         applyColorToElement(mainPalette, clickedBlockColor);
     }
 }
+
+mainPalette.addEventListener('click', changeBlockColor);
 
 function changeColor() {
     const redValue = redInput.value;
