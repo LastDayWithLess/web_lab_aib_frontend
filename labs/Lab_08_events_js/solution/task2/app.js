@@ -11,11 +11,15 @@ function changeColor() {
     const redValue = redInput.value;
     const greenValue = greenInput.value;
     const blueValue = blueInput.value;
-    console.log(redValue)
-    console.log(greenValue)
-    console.log(blueValue)
 
-    const color = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+    if (redValue >= 0 && redValue <= 255 &&
+        greenValue >= 0 && greenValue <= 255 &&
+        blueValue >= 0 && blueValue <= 255) {
 
-    boxColor.style.backgroundColor = color;
+        const color = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
+
+        boxColor.style.backgroundColor = color;
+    } else {
+        alert('Введите корректное значение');
+    }
 }
