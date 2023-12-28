@@ -1,4 +1,3 @@
-# Ввод многострочного текста
 lines = []
 while True:
     line = input()
@@ -8,7 +7,6 @@ while True:
         break
 text = '\n'.join(lines)
 
-# Создание словаря для подсчета количества символов
 character_count = {}
 for char in text:
     if char.isalnum():
@@ -17,10 +15,8 @@ for char in text:
         else:
             character_count[char] = 1
 
-# Сортировка символов по их ASCII-кодам
 sorted_characters = sorted(character_count.keys())
 
-# Вывод гистограммы
 max_count = max(character_count.values())
 for i in range(1, max_count + 1):
     for char in sorted_characters:
